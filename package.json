@@ -4,8 +4,7 @@
   "description": "A demo to setup a tape-run environment on linux with Docker",
   "main": "index.js",
   "scripts": {
-    "test": "browserify test/*.js | tape-run",
-    "start": "node index.js"
+    "test": "browserify test/*.js | tape-run"
   },
   "repository": {
     "type": "git",
