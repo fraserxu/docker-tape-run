@@ -1,0 +1,25 @@
+{
+  "name": "docker-tape-run",
+  "version": "1.0.0",
+  "description": "A demo to setup a tape-run environment on linux with Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test/*.js | tape-run",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraserxu/docker-tape-run.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraserxu/docker-tape-run/issues"
+  },
+  "homepage": "https://github.com/fraserxu/docker-tape-run#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "tape": "^4.4.0",
+    "tape-run": "^2.1.2"
+  }
+}
